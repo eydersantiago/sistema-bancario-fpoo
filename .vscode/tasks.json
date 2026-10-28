@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compilar (make)",
+      "type": "shell",
+      "command": "make",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Compilar y ejecutar (make run)",
+      "type": "shell",
+      "command": "make run",
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "Preparar entrega (.zip)",
+      "type": "shell",
+      "command": "make entrega",
+      "problemMatcher": []
+    },
+    {
+      "label": "Limpiar (make clean)",
+      "type": "shell",
+      "command": "make clean",
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+banco
+banco.exe
+build/*
+!build/.gitkeep
+*.o
+*.d
